@@ -46,7 +46,7 @@ else {
 */
 
 
-
+/*3 */
 fetch ('https://reqres.in/api/users',{
   method: 'POST',
   body:{
@@ -63,7 +63,7 @@ fetch ('https://reqres.in/api/users',{
 .then (data=>console.log(data))
 .catch (error=>console.log("error"))
 
-
+/*4*/
  
 fetch ('https://dog.ceo/api/breeds/image/random')
   .then(function (response){
@@ -73,4 +73,5 @@ fetch ('https://dog.ceo/api/breeds/image/random')
         console.log(data);
     })
 
-  
+ /*7 index.html*/
+/*8 , 9 2index.html*/
